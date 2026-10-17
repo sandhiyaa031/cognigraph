@@ -1,8 +1,5 @@
 # Cognigraph: Probabilistic Constraint Graphs for Fault Localisation
 
-**22AIE301 Probabilistic Reasoning, course project.** A Bayesian fault localiser for small Python programs. Given a function and a test suite it computes, for every statement, the **posterior probability that the statement is faulty**, handles **several simultaneous faults whose number is unknown**, and says how sure it is. Inference is exact; every parameter is learned from labelled single-fault programs; every result in this file comes from a saved, checksummed result folder in this repository.
-
-> **Status in one paragraph.** On 362 fresh MBPP programs, with a protocol fixed before the model was run, the model ranks two-fault programs better than every one of five strong baselines (over the best, MUSE: +0.030 expected average precision, 95% interval [+0.012, +0.046], Holm-corrected p = 0.004). The gain is **small**, does **not** extend to three faults, and the probabilities fall below the base rate at three faults. The study uses injected faults, not naturally occurring multi-fault bugs, and no language model. Negative results are kept in the repository and listed below.
 
 **Contents**
 1. [Problem statement](#1-problem-statement)
